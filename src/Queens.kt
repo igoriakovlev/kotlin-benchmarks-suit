@@ -1,5 +1,3 @@
-import java.util.Arrays
-
 class Queens : Benchmark() {
     override fun benchmark(): Any {
         var result = true
@@ -19,10 +17,11 @@ class Queens : Benchmark() {
         private val queenRows = IntArray(8)
 
         fun queens(): Boolean {
-            Arrays.fill(freeRows, true)
-            Arrays.fill(freeMaxs, true)
-            Arrays.fill(freeMins, true)
-            Arrays.fill(queenRows, -1)
+            freeRows.fill(true)
+            freeRows.fill(true)
+            freeMaxs.fill(true)
+            freeMins.fill(true)
+            queenRows.fill(-1)
             return placeQueen(0)
         }
 
