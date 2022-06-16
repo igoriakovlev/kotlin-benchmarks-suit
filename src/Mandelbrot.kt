@@ -1,4 +1,3 @@
-import java.lang.RuntimeException // This benchmark has been modified based on the SOM benchmark.
 import kotlin.collections.List
 
 //

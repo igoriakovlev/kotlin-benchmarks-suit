@@ -22,7 +22,6 @@
 package json
 
 import som.Vector
-import java.lang.NullPointerException
 
 /**
  * Represents a JSON array, an ordered collection of JSON values.
